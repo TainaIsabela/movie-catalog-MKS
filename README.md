@@ -29,7 +29,7 @@ Especificações do projeto: [MKS Backend Challenge](https://github.com/MKS-dese
    http://localhost:3000/
    ```
 ## Deploy
-  O deploy dessa aplicação bem como a hospedagem do banco de dados PostgreSQL foi feita na AWS ec2. [clique aqui para acessar]().
+  O deploy dessa aplicação bem como a hospedagem do banco de dados PostgreSQL foi feita na AWS ec2. [clique aqui para acessar](https://movie-catalog-mks.onrender.com/).
 
 ## Experiência:
 - <strong>TypeScript (Experiente)</strong>: Cerca de 2 à 3 anos.
