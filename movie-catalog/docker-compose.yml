@@ -3,7 +3,7 @@ services:
   nest:
     container_name: NestJS
     restart: always
-    build: ./movie-catalog
+    build: ../movie-catalog
     ports:
       - '3000:3000'
     links:
@@ -21,7 +21,7 @@ services:
       - POSTGRES_PASSWORD=1234
       - TZ=America/Sao_Paulo
     ports:
-      - '5440:5432'
+      - '5432:5432'
     volumes: 
       - db:/var/lib/postgresql/data
   redis:
